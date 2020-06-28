@@ -1,6 +1,36 @@
 #colordefondo {
   background: url(../img/food.png), #d6b750;
 }
+
+h1 {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 110px;
+}
+h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+section {
+  padding: 120px 0;
+}
 #navpersonalizada {
   background: rgba(255, 255, 255, 0.4);
+}
+#logo {
+  width: 50px;
+}
+
+#inicio {
+  /*background-image: url(img/bar\lejos.jpg);*/
+  background-size: cover;
+  padding-top: 250px;
+  min-height: 700px;
+  /*color: white;*/
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
 }
