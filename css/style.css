@@ -22,10 +22,14 @@ section {
 }
 
 #inicio {
-  /*background-image: url(img/bar\lejos.jpg);*/
-  background-size: cover;
-  padding-top: 250px;
-  min-height: 700px;
+  width: 100%;
+  height: 400px;
+  background-image: url("inicio.jpg");
+  background-size: 100% 100%;
+
+  /* background-size: cover;
+  padding-top: 76px;
+  min-height: 0px; */
   /*color: white;*/
 }
 
