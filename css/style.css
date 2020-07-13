@@ -20,6 +20,16 @@ section {
 #transparencia2 {
   background: rgba(70, 70, 70, 0.3);
 }
+/* .zoom-fotos img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.zoom-fotos:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+} */
 #logo {
   width: 50px;
 }
