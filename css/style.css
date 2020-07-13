@@ -51,3 +51,23 @@ section {
   margin: 0 auto 60px auto;
   text-align: center;
 }
+
+#footer {
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+#footer a {
+  color: white;
+}
+
+#footer a:hover {
+  color: white;
+}
+#logo_footer {
+  width: 100px;
+}
+
+#footer .list-inline .list-inline-item {
+  padding: 10px 15px;
+}
