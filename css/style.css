@@ -54,6 +54,7 @@ section {
   background-size: cover;
   padding-top: 76px;
   min-height: 0px;
+
   /*color: white;*/
   /* width: 100%;
   height: 400px;
@@ -101,18 +102,44 @@ section {
 }
 
 #error404 {
-  
-  background-image: url(/img/error-404.gif)
-  
+  background-image: url(/img/error-404.gif);
 }
 
-#backerror{background-color: #232F45;
-
+#backerror {
+  background-color: #232f45;
 }
 
-#primero{
+#primero {
   margin: 0px 0px;
   padding: 0px;
   color: white;
   font-size: 20px;
+}
+#inicio a:link {
+  background-color: #386895;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#inicio a:hover {
+  background-color: #a0a0a0;
+}
+#contacto a:link {
+  background-color: #386895;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+a:visited {
+  color: white;
+}
+#contacto a:hover {
+  background-color: #a0a0a0;
 }
