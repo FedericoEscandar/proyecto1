@@ -31,7 +31,7 @@
 
 
   <body id="colordefondo">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id= "transparencia">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id= "transparenciaNavbar">
       <div class="container">
         <a class="navbar-brand" href="#"><img
           src="img/chef.png" class="logo-brand"
@@ -78,7 +78,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Suscipit temporibus, sed
                 suscipit? Harum quibusdam quam fuga! Alias, laboriosam.</p>
-            <a href="#" class="btn btn-light">Prueba boton <ion-icon
+            <a href="/PaginaDeError404.html" target=_blank class="btn btn-light">Prueba boton <ion-icon
                     name="caret-forward-outline"></ion-icon></a>
         </div>
     </div>   
@@ -124,7 +124,7 @@
  
  
  
-    <section id="transparencia2">
+    <section id="transparenciaSeccion">
       <div class="container">
       <div class="row row-cols-1 row-cols-md-2">
         <div class="col mb-4">
@@ -190,6 +190,50 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="contactform" id="contacto">
+
+      <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Envianos un mensaje</h2>
+            <h3 class="section-subheading text-muted">Escribenos un mensaje con cualquier duda que tengas.</h3>
+        </div>
+        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor ingrese su nombre.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" id="name" type="text" placeholder="Apellido *" required="required" data-validation-required-message="Por favor ingrese su apellido.">
+                      <p class="help-block text-danger"></p>
+                  </div>
+                    <div class="form-group">
+                        <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor ingrese su email.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <input class="form-control" id="phone" type="tel" placeholder="Celular *" required="required" data-validation-required-message="Por favor ingrese su telefono.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0" >
+                        <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingrese un mensaje."></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+              <a href="#" class="btn btn-light">Enviar mensaje <ion-icon
+                name="caret-forward-outline"></ion-icon></a>
+                <!--<div id="success"></div>
+                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar mensaje</button>-->
+            </div>
+        </form>
+    </div>
     </section>
 
     <section id="footer" class="bg-dark">

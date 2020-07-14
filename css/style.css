@@ -18,10 +18,10 @@ h2 {
 section {
   padding: 30px 0;
 }
-#transparencia {
-  background: rgba(255, 255, 255, 0.7);
+#transparenciaNavbar {
+  background: rgba(255, 255, 255, 0.5);
 }
-#transparencia2 {
+#transparenciaSeccion {
   background: rgba(70, 70, 70, 0.3);
 }
 /* .zoom-fotos img {
@@ -71,6 +71,11 @@ section {
   margin: 0 auto 60px auto;
   text-align: center;
 }
+.content-left {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
 
 #footer {
   padding: 80px 0;
@@ -93,4 +98,21 @@ section {
 }
 #footer.bg-dark {
   padding: 10px;
+}
+
+#error404 {
+  
+  background-image: url(/img/error-404.gif)
+  
+}
+
+#backerror{background-color: #232F45;
+
+}
+
+#primero{
+  margin: 0px 0px;
+  padding: 0px;
+  color: white;
+  font-size: 20px;
 }
