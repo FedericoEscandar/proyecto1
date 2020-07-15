@@ -69,24 +69,14 @@ h2 {
 }
 
 /* CAROUSEL */
-#DescCarrusel {
-  /*padding: 0px 0px;*/
-  padding-top: 20px;
-  height: 15px;
-  font-size: 30px;
-}
 #DescCarrusel h4 {
   font-size: 30px;
 }
-#carouselExampleIndicators {
-  padding-top: 70px;
-}
-
-/* .content-left {
-  max-width: 800px;
-  margin: 0 auto 60px auto;
+#tentaciones {
+  padding-top: 20px;
+  font-size: 30px;
   text-align: center;
-} */
+}
 
 /* CARDS */
 #transparenciaCards {
