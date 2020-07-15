@@ -9,7 +9,10 @@
 }
 #transparenciaSeccion {
   background: rgba(70, 70, 70, 0.3);
-  padding: 50px;
+  padding: 30px;
+}
+h4 {
+  text-align: center;
 }
 
 /* NAVBAR */
