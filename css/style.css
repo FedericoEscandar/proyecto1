@@ -107,19 +107,15 @@ h2 {
 #contacto {
   margin-bottom: 50px;
 }
-#contacto a:link {
+#sendMessageButton {
   background-color: #386895;
   color: white;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   border-radius: 10px;
 }
-#contacto a:visited {
-  color: white;
-}
-#contacto a:hover {
+#sendMessageButton:hover {
   background-color: #2a4b69;
 }
 
