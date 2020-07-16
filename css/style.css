@@ -18,9 +18,6 @@ h4 {
 }
 
 /* NAVBAR */
-#navbar {
-  padding: 20px 0;
-}
 #transparenciaNavbar {
   background: white;
 }
@@ -157,6 +154,7 @@ h3 {
 /* PAGINA ACERCA DE */
 #acercaDe {
   padding-top: 100px;
+  color: #613c28;
 }
 
 .downfix {
