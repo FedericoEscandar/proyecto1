@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* AL BODY */
 #colordefondo {
   background: url(../img/food.png), #d6b750;
