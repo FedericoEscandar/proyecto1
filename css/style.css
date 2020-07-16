@@ -12,7 +12,10 @@ html {
 }
 .transparenciaSeccion {
   background: rgba(70, 70, 70, 0.3);
-  padding: 80px;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 h4 {
   text-align: center;
@@ -73,9 +76,9 @@ h2 {
   text-align: center;
   color: #7a5039;
 }
-#DescCarrusel p {
+/* #DescCarrusel p {
   padding-bottom: 80px;
-}
+} */
 
 /* CARDS */
 #transparenciaCards {
@@ -151,6 +154,9 @@ h3 {
   color: rgb(255, 77, 77);
   font-size: 30px;
   background-image: url(../img/error-404.gif);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #textoerror1 {
   color: white;
