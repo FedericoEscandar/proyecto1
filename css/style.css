@@ -33,11 +33,21 @@ h4 {
   height: 400px;
   background-image: url(/img/inicio.jpg);
   background-size: 100% 100%;
-
+  background-color: rgba(0, 0, 0, 0.6);
   background-size: cover;
   padding-top: 76px;
   min-height: 0px;
 }
+/*
+#inicio:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}*/
 #descripcion_inicio {
   color: white;
 }
