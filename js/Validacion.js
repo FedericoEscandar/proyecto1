@@ -5,7 +5,7 @@ function validacion_formulario(event) {
   var email = document.myform.email.value;
   var phone = document.myform.phone.value;
   var message = document.myform.message.value;
-  //name == null ||
+
   console.log(document.myform);
   if (name == "") {
     alert("Nombre no puede estar vacio");
@@ -28,9 +28,4 @@ function validacion_formulario(event) {
     alert("Mensaje no puede estar vacio");
     return false;
   }
-}
-
-function save(event) {
-  var nombre = event.target.value;
-  console.log(nombre);
 }
