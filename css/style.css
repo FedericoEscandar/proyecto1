@@ -92,9 +92,6 @@ h2 {
 }
 
 /* CONTACTO */
-#contacto {
-  margin-bottom: 50px;
-}
 #sendMessageButton {
   background-color: #386895;
   color: white;
@@ -125,10 +122,13 @@ h2 {
 }
 
 #footer .list-inline .list-inline-item {
-  padding: 10px 15px;
+  padding: 0px 15px;
 }
 #footer.bg-dark {
   padding: 10px;
+}
+.dark {
+  color: rgb(95, 95, 95);
 }
 
 /* PAGINA ERROR 404 */
@@ -150,4 +150,10 @@ h2 {
 /* PAGINA ACERCA DE */
 #acercaDe {
   padding-top: 100px;
+}
+
+.downfix {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
