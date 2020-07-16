@@ -150,7 +150,7 @@ h3 {
   padding-bottom: 300px;
   color: rgb(255, 77, 77);
   font-size: 30px;
-  background-image: url(/img/error-404.gif);
+  background-image: url(../img/error-404.gif);
 }
 #textoerror1 {
   color: white;
