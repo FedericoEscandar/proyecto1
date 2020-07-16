@@ -12,7 +12,7 @@ html {
 }
 .transparenciaSeccion {
   background: rgba(70, 70, 70, 0.3);
-  padding: 30px;
+  padding: 80px;
 }
 h4 {
   text-align: center;
@@ -68,10 +68,13 @@ h2 {
 }
 /* CARRUSEL */
 #tentaciones {
-  padding-top: 20px;
+  padding-top: 80px;
   font-size: 30px;
   text-align: center;
   color: #7a5039;
+}
+#DescCarrusel p {
+  padding-bottom: 80px;
 }
 
 /* CARDS */
@@ -90,7 +93,7 @@ h5 {
 }
 /* DESCARGA */
 #descarga {
-  padding: 50px;
+  padding-top: 75px;
 }
 #app-icon {
   height: 100px;
