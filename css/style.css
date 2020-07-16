@@ -69,10 +69,6 @@ h2 {
   background-color: #2a4b69;
 }
 
-/* CAROUSEL */
-/*#DescCarrusel h4 {
-  font-size: 30px;
-}*/
 #tentaciones {
   padding-top: 20px;
   font-size: 30px;
@@ -87,7 +83,12 @@ h2 {
   margin-bottom: 50px;
   font-size: 30px;
 }
-
+h5 {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
 /* DESCARGA */
 #descarga {
   padding: 50px;
